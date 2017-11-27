@@ -1,5 +1,6 @@
 $('#post').click(function () {
     createNewPost();
+    window.location.href= 'index.html';
 });
 
 $('#photo').change(function () {
